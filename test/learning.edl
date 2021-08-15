@@ -1,0 +1,15 @@
+enclave {
+    include "secgear_urts.h"
+    from "secgear_tstdc.edl" import *; 
+    trusted {
+        public int get_string([out, size=32]char *buf);
+    };
+};
+
+host{
+    include "secgear_urts.h"
+    from "secgear_tstdc.edl" import *; 
+    untrusted{
+        public int printout([out,size=32]char* buf);
+    };
+};
