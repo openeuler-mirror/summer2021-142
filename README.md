@@ -1,37 +1,15 @@
-# Summer2021-No.142 å°†Grapheneå¼•å…¥openEulerï¼Œå¹¶åˆ©ç”¨secGearæ”¹é€ 
+Graphene-1.2-rc1
 
-#### ä»‹ç»
-https://gitee.com/openeuler-competition/summer-2021/issues/I3RMRH
+½éÉÜ
+±àĞ´ÁËspecÎÄ¼ş£¬ÓÃÓÚ½«GrapheneÔ´Âë´ò°üÎªrpm°ü¡£
+rpm°üÖĞ°üÀ¨±àÒëºÃµÄÔ´Âë£¬¿ÉÒÔÖ±½Ó°²×°Ê¹ÓÃ¡£
 
-#### è½¯ä»¶æ¶æ„
-è½¯ä»¶æ¶æ„è¯´æ˜
+°²×°½Ì³Ì
+½«Ô´Âë°ü·ÅÖÃÔÚrpmbuild/SOURCES£¬SPECÎÄ¼ş·ÅÖÃÔÚrpmbuild/SPEC¡£
+¹¹½¨rpm°ü£º
+rpmbuild -ba graphene.spec
+°²×°£º
+rpm -ivh (--nodevs)  graphene-1.2_rc1-1.x86_64.rpm
 
-
-#### å®‰è£…æ•™ç¨‹
-
-1.  xxxx
-2.  xxxx
-3.  xxxx
-
-#### ä½¿ç”¨è¯´æ˜
-
-1.  xxxx
-2.  xxxx
-3.  xxxx
-
-#### å‚ä¸è´¡çŒ®
-
-1.  Fork æœ¬ä»“åº“
-2.  æ–°å»º Feat_xxx åˆ†æ”¯
-3.  æäº¤ä»£ç 
-4.  æ–°å»º Pull Request
-
-
-#### ç‰¹æŠ€
-
-1.  ä½¿ç”¨ Readme\_XXX.md æ¥æ”¯æŒä¸åŒçš„è¯­è¨€ï¼Œä¾‹å¦‚ Readme\_en.md, Readme\_zh.md
-2.  Gitee å®˜æ–¹åšå®¢ [blog.gitee.com](https://blog.gitee.com)
-3.  ä½ å¯ä»¥ [https://gitee.com/explore](https://gitee.com/explore) è¿™ä¸ªåœ°å€æ¥äº†è§£ Gitee ä¸Šçš„ä¼˜ç§€å¼€æºé¡¹ç›®
-4.  [GVP](https://gitee.com/gvp) å…¨ç§°æ˜¯ Gitee æœ€æœ‰ä»·å€¼å¼€æºé¡¹ç›®ï¼Œæ˜¯ç»¼åˆè¯„å®šå‡ºçš„ä¼˜ç§€å¼€æºé¡¹ç›®
-5.  Gitee å®˜æ–¹æä¾›çš„ä½¿ç”¨æ‰‹å†Œ [https://gitee.com/help](https://gitee.com/help)
-6.  Gitee å°é¢äººç‰©æ˜¯ä¸€æ¡£ç”¨æ¥å±•ç¤º Gitee ä¼šå‘˜é£é‡‡çš„æ ç›® [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+¹Ù·½ÎÄµµ
+https://graphene.readthedocs.io
